@@ -13,9 +13,17 @@
 		11304D8D2BD3701600FFDBAD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11304D8C2BD3701600FFDBAD /* Base */; };
 		11304D8F2BD3701700FFDBAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11304D8E2BD3701700FFDBAD /* Assets.xcassets */; };
 		11304D922BD3701700FFDBAD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11304D912BD3701700FFDBAD /* Base */; };
+		11304D9A2BD371A600FFDBAD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304D992BD371A600FFDBAD /* ViewModel.swift */; };
+		11304D9C2BD371DC00FFDBAD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304D9B2BD371DC00FFDBAD /* Model.swift */; };
+		11304D9E2BD372EE00FFDBAD /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304D9D2BD372EE00FFDBAD /* Service.swift */; };
+		11304DA02BD3799E00FFDBAD /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304D9F2BD3799E00FFDBAD /* ArticleCell.swift */; };
+		11304DA42BD391E400FFDBAD /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304DA32BD391E400FFDBAD /* WKWebViewController.swift */; };
+		11304DA82BD4CAF400FFDBAD /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11304DA72BD4CAF300FFDBAD /* RealmModel.swift */; };
+		DB80B260DCCC04B625563ABC /* Pods_millieProj.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66AF2AC4719ABB7094808552 /* Pods_millieProj.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0900082DAEC30B0005E4FC6E /* Pods-millieProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-millieProj.release.xcconfig"; path = "Target Support Files/Pods-millieProj/Pods-millieProj.release.xcconfig"; sourceTree = "<group>"; };
 		11304D822BD3701600FFDBAD /* millieProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = millieProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11304D852BD3701600FFDBAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11304D872BD3701600FFDBAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		11304D8E2BD3701700FFDBAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11304D912BD3701700FFDBAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11304D932BD3701700FFDBAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11304D992BD371A600FFDBAD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		11304D9B2BD371DC00FFDBAD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		11304D9D2BD372EE00FFDBAD /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		11304D9F2BD3799E00FFDBAD /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
+		11304DA32BD391E400FFDBAD /* WKWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		11304DA72BD4CAF300FFDBAD /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		20322EBBED5FDD6D2BF99D6C /* Pods-millieProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-millieProj.debug.xcconfig"; path = "Target Support Files/Pods-millieProj/Pods-millieProj.debug.xcconfig"; sourceTree = "<group>"; };
+		66AF2AC4719ABB7094808552 /* Pods_millieProj.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_millieProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB80B260DCCC04B625563ABC /* Pods_millieProj.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				11304D842BD3701600FFDBAD /* millieProj */,
 				11304D832BD3701600FFDBAD /* Products */,
+				DFD1F69E4377B677C654D2C7 /* Pods */,
+				C85DA31FB452E6622B55A276 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +82,31 @@
 				11304D8E2BD3701700FFDBAD /* Assets.xcassets */,
 				11304D902BD3701700FFDBAD /* LaunchScreen.storyboard */,
 				11304D932BD3701700FFDBAD /* Info.plist */,
+				11304D992BD371A600FFDBAD /* ViewModel.swift */,
+				11304D9B2BD371DC00FFDBAD /* Model.swift */,
+				11304D9D2BD372EE00FFDBAD /* Service.swift */,
+				11304D9F2BD3799E00FFDBAD /* ArticleCell.swift */,
+				11304DA32BD391E400FFDBAD /* WKWebViewController.swift */,
+				11304DA72BD4CAF300FFDBAD /* RealmModel.swift */,
 			);
 			path = millieProj;
+			sourceTree = "<group>";
+		};
+		C85DA31FB452E6622B55A276 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66AF2AC4719ABB7094808552 /* Pods_millieProj.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFD1F69E4377B677C654D2C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20322EBBED5FDD6D2BF99D6C /* Pods-millieProj.debug.xcconfig */,
+				0900082DAEC30B0005E4FC6E /* Pods-millieProj.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11304D962BD3701700FFDBAD /* Build configuration list for PBXNativeTarget "millieProj" */;
 			buildPhases = (
+				E820802BD83E9AC78031F84E /* [CP] Check Pods Manifest.lock */,
 				11304D7E2BD3701600FFDBAD /* Sources */,
 				11304D7F2BD3701600FFDBAD /* Frameworks */,
 				11304D802BD3701600FFDBAD /* Resources */,
+				7358146AA97569D680429FA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +177,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7358146AA97569D680429FA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-millieProj/Pods-millieProj-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-millieProj/Pods-millieProj-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-millieProj/Pods-millieProj-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E820802BD83E9AC78031F84E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-millieProj-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11304D7E2BD3701600FFDBAD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11304D9C2BD371DC00FFDBAD /* Model.swift in Sources */,
 				11304D8A2BD3701600FFDBAD /* ViewController.swift in Sources */,
 				11304D862BD3701600FFDBAD /* AppDelegate.swift in Sources */,
+				11304DA42BD391E400FFDBAD /* WKWebViewController.swift in Sources */,
+				11304DA82BD4CAF400FFDBAD /* RealmModel.swift in Sources */,
+				11304D9A2BD371A600FFDBAD /* ViewModel.swift in Sources */,
+				11304DA02BD3799E00FFDBAD /* ArticleCell.swift in Sources */,
 				11304D882BD3701600FFDBAD /* SceneDelegate.swift in Sources */,
+				11304D9E2BD372EE00FFDBAD /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,19 +379,21 @@
 		};
 		11304D972BD3701700FFDBAD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20322EBBED5FDD6D2BF99D6C /* Pods-millieProj.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8Q3M83M67C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = millieProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,19 +409,21 @@
 		};
 		11304D982BD3701700FFDBAD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0900082DAEC30B0005E4FC6E /* Pods-millieProj.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8Q3M83M67C;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = millieProj/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
